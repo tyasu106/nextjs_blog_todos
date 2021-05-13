@@ -19,7 +19,7 @@ export default function Post({ post }) {
       <p className="mb-12">{post.created_at}</p>
       <p className="mb-10">{post.content}</p>
       <Link href="/blog-page">
-        <div className="flex cursor-pointer mt-12">
+        <div className="flex cursor-pointer mt-8">
           <svg
             className="w-6 h-6 mr-3"
             fill="none"

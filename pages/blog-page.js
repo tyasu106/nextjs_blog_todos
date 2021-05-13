@@ -12,7 +12,7 @@ export default function BlogPage({ filteredPosts }) {
         ))}
       </ul>
       <Link href="/main-page">
-        <div className="flex cursor-pointer mt-12">
+        <div className="flex cursor-pointer mt-8">
           <svg
             className="w-6 h-6 mr-3"
             fill="none"
